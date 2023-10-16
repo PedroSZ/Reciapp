@@ -1,0 +1,20 @@
+{
+    "elements": {
+        "th:block": {}
+    },
+    "attributes": {
+        "th:text": {
+            "context": "th"
+        },
+        "th:id": {},
+        "th:for": {},
+        "th:action": {},
+        "th:each": {
+            "context": "tr"
+        },
+        "th:field": {},
+        "th:inline": {},
+        "th:value": {},
+        "th:with": {}
+    }
+}

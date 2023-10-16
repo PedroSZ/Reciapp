@@ -1,0 +1,11 @@
+.badge{
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    border-start-start-radius: 14px;
+    border-start-end-radius: 14px;
+    height: 35px;
+    width: 95px;
+    font-size: 16px;
+     
+ 
+}
