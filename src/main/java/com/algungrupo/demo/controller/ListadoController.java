@@ -20,16 +20,20 @@ public class ListadoController {
         this.reporteService = reporteService;
         this.ciudadanoService = ciudadanoService;
     }
-
-  
     
     @RequestMapping("/")
+    public String paginaInicio(Model model){
+        return "inicio";
+    }
+  
+    
+   /* @RequestMapping("/")
     public String listarReportes(Model model){
         List<Reporte> destacados = reporteService.buscarDestacados();
         model.addAttribute("reportes", destacados);
         return "listado";
     
-    }
+    }*/
     
     @RequestMapping("/ciudadanosLista")
     public String listarCiudadanos(Model model){
